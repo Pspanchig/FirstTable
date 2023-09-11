@@ -1,0 +1,88 @@
+:root{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Serif Telugu', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Rubik Iso', cursive;
+    font-family: 'Source Code Pro', monospace;
+    --Main-Color: #45FFCA;
+    --Second-Color: #FEFFAC;
+    --Third-Color: #49d2d6;
+    --F-Color: #5cf5f5;
+
+}
+.Intro{
+    display: block;
+    padding-bottom: .009%;
+    background-color: #FEFFAC;
+    border: 3px solid var(--Third-Color);   
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Serif Telugu', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Rubik Iso', cursive;
+    font-family: 'Source Code Pro', monospace; 
+}
+.Intro h1{
+    padding-left: 1%;
+}
+.Table table{
+    background-color: var(--Second-Color);
+}
+th{
+    text-align: left;
+}
+th, td{
+    padding: 2em;
+}
+.Table tr{
+    background-color: var(--Third-Color);
+}
+.Table p{
+        padding-left: 2%;
+    margin-top: 0em;
+    display: block;
+    background-color: var(--Third-Color);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 48.5em;
+    margin-bottom: 2em;
+    border: 3px solid var(--Second-Color);
+}
+tr:nth-child(even){
+    background-color: var(--F-Color);
+}
+body{
+    background-color: var(--Main-Color);
+    margin: 0;
+}
+.imga{
+    display: inline-block;
+}
+.imga figure{
+    display: inline-block;
+    width: 70%;
+}
+.imga img{
+    width: 100%;
+    border: 5px solid#FEFFAC;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Table{
+    display: inline-block;
+    vertical-align: top;
+}
+.Clase:hover{
+    font-weight: bold;
+    box-shadow: .5em 1em 1em;
+    border-radius: .5em;
+    transition: .6s;
+}
